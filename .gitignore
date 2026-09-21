@@ -1,1 +1,26 @@
-.idea
+# Data
+data/
+*.csv
+*.jpg
+*.png
+!results/*.png  # Keep results images
+
+# Models
+saved_models/
+*.pth
+*.pt
+*.ckpt
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
